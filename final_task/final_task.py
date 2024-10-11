@@ -73,7 +73,7 @@ def write_to_json(file_name, data):
         json.dump(data, file, ensure_ascii=False, indent=4)
 
 # Чтение данных из CSV файла
-employees = read_csv('final_task/employees.csv')
+employees = read_csv('machine_learning2024/final_task/employees.csv')
 
 # Премии программистам
 programmer_bonuses = calculate_programmer_bonus(employees)
