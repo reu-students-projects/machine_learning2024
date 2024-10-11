@@ -1,14 +1,10 @@
 **/__pycache__/
 .venv
-
 *.csv
 !sample*.csv
-!task.csv
-
 *.json
 !sample*.json
-
+!task.csv
 test.py
-
 .env
 !sample.env
